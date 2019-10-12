@@ -1,24 +1,28 @@
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
     <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
     <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+    <link href="resources/css/queries.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400&display=swap" rel="stylesheet" type="text/css">
     <title>placercountycleaning</title>
   </head>
-  <body>
+<!---------------------------------------------------------------
+    FRONT PAGE
+------------------------------------------------------------------>
+    <body>
     <header>
-      <nav>
+      <nav class="nav-container">
         <div class="row">
-          <img src="resources/css/img/logo-white.png" alt="placercountycleaninglogo" class="logo">
           <ul class="main-nav">
-            <li><a href="#">Commercial Services</a></li>
-            <li><a href="#">Residential Services</a></li>
             <li><a href="#">About us</a></li>
-            <li><a href="#">Book an Appointment</a></li>
+            <li><a href="#">How it works</a></li>
+            <li><a href="#">Commercial services </a></li>
+            <li><a href="#">residential services</a></li>
           </ul>
         </div>
       </nav>
@@ -28,63 +32,67 @@
         <a class="btn btn-ghost" href="#">Tell me more</a>
       </div>
     </header>
-    <section class="section-features">
+<!---------------------------------------------------------------
+    ABOUT US
+------------------------------------------------------------------>
+    <section class="section-about-us">
       <div class="row">
         <h2>Small office and residential cleaning</h2>
         <p class="long-copy">
-          Hello, we are Placer County Cleaning Company, your new premium cleaning services. We know you’re always busy. No time for chores. So let us take care of that, we’re really good at it, we promise!
+          Our goal is to set the standard of cleaning in Placer County, California. Providing the clean that you have been looking for. We pay attention to detail and sweat the small stuff so you don’t have to.
         </p>
       </div>
       <div class="row">
           <div class="col span-1-of-4 box" >
-            <i class="icon ion-md-calendar icon-big"></i>
-            <h3>Up to 365 days/year</h3>
-            <p>Never deep clean again! We really mean that. Our plans include up to52 weeks/year coverage. You can also choose a more flexible plan that suites your needs</p>
+            <i class="icon ion-md-color-fill icon-big"></i>
+            <h3>Never deep clean again!</h3>
+            <p>We really mean that. We work with you to create the cleaning plan that fits your needs. We strive to be flexible for our clients, that means we will always go the extra mile to ensure your needs are met.</p>
           </div>
           <div class="col span-1-of-4 box" >
             <i class="icon ion-md-thumbs-up icon-big"></i>
-            <h3>Convenient</h3>
-            <p>Schedule your clean through our online booking system, and we will show up ready to do the dirty work. Our payment system is online also, so forget the check with our hassle free payment system.</p>
+            <h3>Convenient scheduling</h3>
+            <p>Schedule your clean through our online booking system, and we will show up ready to do the dirty work. Our payment system is online, so forget the check with our hassle free payment system.</p>
           </div>
           <div class="col span-1-of-4 box" >
             <i class="icon ion-md-leaf icon-big"></i>
-            <h3>100% green</h3>
-            <p>All our cleaning products are clean, green and mean. We have selected solutions that are good for our planet while still providing the best clean you can get. Good for your health, the environment, and it also it feels better.</p>
+            <h3>100% green products</h3>
+            <p>All our cleaning products are clean, green and mean. We have selected solutions that are good for our planet while still providing an exemplary clean. Good for your health and for the environment.</p>
           </div>
           <div class="col span-1-of-4 box">
             <i class="icon ion-md-happy icon-big"></i>
-            <h3>Have it your way</h3>
-            <p>Our goals are to increase your time so we want you to have your cleaning your way. Schedule when is convenient evening included, and adjust your cleaning plan as you see fit.</p>
+            <h3>Have it your way always</h3>
+            <p>Our goal is to increase your time so we want you to have your cleaning your way. Schedule when is convenient evening included, and adjust your cleaning plan as you see fit.</p>
           </div>
 
       </div>
     </section>
-
+<!---------------------------------------------------------------
+        SECTION PHOTOS
+------------------------------------------------------------------>
       <section class="section-meals">
-
-      <ul class="meals-showcase">
-        <li>
+        <ul class="meals-showcase clearfix">
+          <li>
             <figure class="meal-photo">
               <img src="resources/img/cleaning-rag-bucket.jpg" alt= "person cleaning toilet">
             </figure>
-        </li>
-        <li>
+          </li>
+          <li>
             <figure class="meal-photo">
               <img src="resources/img/dust-mop-hardwood.jpg" alt= "man sweeping floor">
             </figure>
-        </li>
-        <li>
+          </li>
+          <li>
             <figure class="meal-photo">
               <img src="resources/img/hand-cleaning-sink.jpg" alt= "hand-cleaning-sink">
             </figure>
-        </li>
-        <li>
+          </li>
+          <li>
             <figure class="meal-photo">
               <img src="resources/img/man-mopping-floor.jpeg" alt= "man-mopping-floor">
             </figure>
         </li>
       </ul>
-      <ul class="meals-showcase">
+      <ul class="meals-showcase clearfix">
         <li>
             <figure class="meal-photo">
               <img src="resources/img/mop-cleaning-hardwood.jpg" alt= "mop-cleaning-hardwood">
@@ -102,19 +110,22 @@
         </li>
         <li>
             <figure class="meal-photo">
-              <img src="resources/img/hand-cleaning-stove.jpg" alt= "hands-washing-bubbles">
+              <img src="resources/img/hands-washing-bubbles.jpg" alt= "hands-washing-bubbles">
             </figure>
         </li>
 
       </ul>
       </section>
+<!---------------------------------------------------------------
+          HOW IT WORKS
+------------------------------------------------------------------>
       <section class="section-steps">
           <div class="row">
             <h2>How it works&mdash;Simple as 1, 2, 3</h2>
           </div>
           <div class="row">
               <div class="col span-1-of-2">
-                  <img src="resources/img/app-iPhone.png" alt="app on iphone" class="app-screen">
+                  <img src="resources/img/Blue window cleaer bottle-white paper towels-grey background.jpg" alt="blue window cleaner towels" class="app-screen">
               </div>
               <div class="col span-1-of-2">
                   <div class="works-step">
@@ -136,6 +147,228 @@
               </div>
             </div>
       </section>
+<!---------------------------------------------------------------
+          SECTION COMMERCIAL SERVICES
+------------------------------------------------------------------>
+      <section class="section-commercial-services">
+        <div class="row">
+          <h2>Commercial services we offer</h2>
+        </div>
+        <div class="row">
+          <div class="col span-1-of-2 box">
+            <img src="resources/img/remodeled-kitchen-white-cabinets.jpeg" alt="remodeled kitchen white cabinets">
+            <h3><strong>Post-construction services</strong></h3>
+            <div class="commercial-services-features">
+                <p><strong>Let us show off your work by leaving the post job clean up to us
+                We do all necessary post construction clean up including but not limited to: removing all dust, cleaning all surfaces, getting all those hard to reach spaces
+                Your customers will notice the transformation, and you will be ready for the next job</strong></p>
+            </div>
+          </div>
+          <div class="col span-1-of-2 box">
+            <img src="resources/img/office-cubicles-black-chair.jpeg" alt="office cubicles black chair">
+            <h3> <strong>Office cleaning</strong></h3>
+            <div class="commercial-services-features">
+                <p><strong>Our office cleaning services are flexible and meet the needs of the space we work in
+                We provide all light janitorial work necessary and deep cleans for the certains parts of the office ensuring your employees can stay focused on more important tasks
+                Trust us with your space and our quality of work will be unmatched and convenient for you.</strong></p>
+              </div>
+          </div>
+        </div>
+      </section>
+<!--------------------------------------------------------------
+        SECTION testimonials
+-------------------------------------------------------------->
+      <section class="section-testimonials">
 
+        <div class="row">
+          <h2>our customers cant live without us</h2>
+        </div>
+        <div class="row">
+          <div class="col span-1-of-3">
+              <blockquote>
+                  Omnifood is just awesome! I just launched a startup which leaves me with no time for cooking, so Omnifood is a life-saver. Now that I got used to it, I couldn't live without my daily meals!
+                  <cite><img src="resources/img/customer-1.jpg" alt="Alberto Duncan">(Alberto Duncan)</cite>
+              </blockquote>
+          </div>
+          <div class="col span-1-of-3">
+              <blockquote>
+                  Inexpensive, healthy and great-tasting meals, delivered right to my home. We have lots of food delivery here in Lisbon, but no one comes even close to Omifood. Me and my family are so in love!
+                  <cite><img src="resources/img/customer-2.jpg" alt="(Joana Silva)">(Joana Silva)</cite>
+              </blockquote>
+          </div>
+          <div class="col span-1-of-3">
+              <blockquote>
+                  I was looking for a quick and easy food delivery service in San Franciso. I tried a lot of them and ended up with Omnifood. Best food delivery service in the Bay Area. Keep up the great work!
+                  <cite><img src="resources/img/customer-3.jpg" alt="(Milton Chapman)">(Milton Chapman)</cite>
+              </blockquote>
+          </div>
+        </div>
+      </section>
+  <!--------------------------------------------------------------
+              SECTION PLANS
+  -------------------------------------------------------------->
+      <section class="section-plans">
+        <div class="row">
+            <h2>Get your life back today</h2>
+        </div>
+        <div class="row">
+            <div class="col span-1-of-3">
+              <div class="plan-box">
+                <div>
+                  <h3>Premuim</h3>
+                  <p class="plan-price">$399 <span>/ month</span></p>
+                  <p class="plan-price-meal">that's only $13.30 per meal</p>
+                </div>
+                <div>
+                    <ul>
+                      <li><i class="ion-ios-checkmark-empty icon-small">1 meal every day</li>
+                      <li><i class="ion-ios-checkmark-empty icon-small">Order 24/7</li>
+                      <li><i class="ion-ios-checkmark-empty icon-small">access to newest creations</li>
+                      <li><i class="ion-ios-checkmark-empty icon-small">Free delivery</li>
+                    </ul>
+                </div>
+                <div >
+                  <a href="#" class="btn btn-full">Sign up now</a>
+                </div>
+              </div>
+            </div>
+            <div class="col span-1-of-3">
+              <div class="plan-box">
+                <div>
+                  <h3>Pro</h3>
+                  <p class="plan-price">$149 <span>/ month</span></p>
+                  <p class="plan-price-meal">that's only $14.90 per meal</p>
+                </div>
+                <div>
+                    <ul>
+                      <li><i class="ion-ios-checkmark-empty icon-small">1 meal 10 days/months</li>
+                      <li><i class="ion-ios-checkmark-empty icon-small">Order 24/7</li>
+                      <li><i class="ion-ios-checkmark-empty icon-small">access to newest creations</li>
+                      <li><i class="ion-ios-checkmark-empty icon-small">Free delivery</li>
+                    </ul>
+                </div>
+                <div >
+                  <a href="#" class="btn btn-full">Sign up now</a>
+                </div>
+              </div>
+            </div>
+            <div class="col span-1-of-3">
+              <div class="plan-box">
+                <div>
+                  <h3>Starter</h3>
+                  <p class="plan-price">$19<span>per meal</span></p>
+                  <p class="plan-price-meal"> &nbsp;</p>
+                </div>
+                <div>
+                    <ul>
+                      <li><i class="ion-ios-checkmark-empty icon-small">1 meal</li>
+                      <li><i class="ion-ios-checkmark-empty icon-small">Order from 8:00am to 12:00pm</li>
+                      <li><i class="ion-ios-close-empty icon-small"></li>
+                      <li><i class="ion-ios-checkmark-empty icon-small">Free delivery</li>
+                    </ul>
+                </div>
+                <div >
+                  <a href="#" class="btn btn-full">Sign up now</a>
+                </div>
+              </div>
+            </div>
+        </div>
+      </section>
+  <!--------------------------------------------------------------
+            SECTION FORM
+  -------------------------------------------------------------->
+      <section class="section-form">
+        <div class="row">
+          <h2>We're happy to hear from you</h2>
+        </div>
+        <div class="row">
+          <form class="contact-form" action="#" method="post">
+            <div class="row">
+              <div class="col span-1-of-3">
+                <label for="name">Name</label>
+              </div>
+              <div class="col span-2-of-3">
+                <input type="text" name="name" id="name" placeholder="Your name" required>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col span-1-of-3">
+                <label for="email">Email</label>
+              </div>
+              <div class="col span-2-of-3">
+                <input type="email" name="email" id="email" placeholder="Your Email" required>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col span-1-of-3">
+                <label for="find-us">How did you find us?</label>
+              </div>
+              <div class="col span-2-of-3">
+                <select class="find-us" id="find-us">
+                  <option value="Friends" selected>Friends</option>
+                  <option value="Search" >Search engine</option>
+                  <option value="Ad">Ad</option>
+                  <option value="Other">Other</option>
+                </select>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col span-1-of-3">
+                <label>Newsletter</label>
+              </div>
+              <div class="col span-2-of-3">
+                <input type="checkbox" name="Newsletter" id="Newsletter" checked> Yes, please!
+              </div>
+            </div>
+            <div class="row">
+              <div class="col span-1-of-3">
+                <label>Drop us a line</label>
+              </div>
+              <div class="col span-2-of-3">
+                <textarea name="message" placeholder="Your message"></textarea>
+              </div>
+              </div>
+              <div class="row">
+                <div class="col span-1-of-3">
+                  <label>&nbsp;</label>
+                </div>
+                <div class="col span-2-of-3">
+                  <input type="submit" value="Send it">
+                </div>
+              </div>
+          </form>
+
+        </div>
+      </section>
+<!--------------------------------------------------------------
+                SECTION FOOTER
+  -------------------------------------------------------------->
+  <footer>
+    <div class="row">
+      <div class="col span-1-of-2">
+        <ul class="footer-nav">
+          <li><a href="#">About us</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Press</a></li>
+          <li><a href="#">IOS App</a></li>
+          <li><a href="#">Android App</a></li>
+        </ul>
+      </div>
+      <div class="col span-1-of-2">
+        <ul class="social-links">
+          <li><a href="#"><i class="icon ion-logo-facebook"></i></a></li>
+          <li><a href="#"><i class="icon ion-logo-twitter"></i></a></li>
+          <li><a href="#"><i class="icon ion-logo-googleplus"></i></a></li>
+          <li><a href="#"><i class="icon ion-logo-instagram"></i></a></li>
+        </ul>
+      </div>
+    </div>
+      <div class="row">
+        <p>
+          Copyright &copy; 2019 by placercountycleaning. All rights reserved.
+        </p>
+
+      </div>
+  </footer>
   </body>
 </html>
